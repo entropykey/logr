@@ -8,4 +8,5 @@
 then run `sudo ./logger /dev/input/eventX`
 
 then it would start the logger and record the keystrokes in keystrokes.log
+and it is consensual for ethical purposes for now xD
 

@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    printf("logger — educational only. Run on machines you own or in a VM.\n");
+    printf("logger — educational purposes only. Run on machines you own or in a VM.\n");
     printf("Type 'goober' to confirm and proceed: ");
     char ans[16];
     if (!fgets(ans, sizeof(ans), stdin)) return 1;
