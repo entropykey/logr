@@ -158,12 +158,12 @@ int main(int argc, char **argv) {
     }
 
     printf("logger — educational purposes only. run on machines you own or in a vm.\n");
-    printf("type 'goober' to confirm and proceed: ");
+    printf("type 'confirm' to confirm and proceed: ");
     char ans[16];
     if (!fgets(ans, sizeof(ans), stdin)) {
         return 1;
     }
-    if (strncmp(ans, "goo", 3) != 0) { 
+    if (strncmp(ans, "confirm", 3) != 0) { 
         printf("aborting.\n"); 
         return 1; 
     }
